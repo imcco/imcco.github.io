@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
-keywords:
-author: John Doe
+title: Keis Note
+subtitle: 'Keis Note'
+description: 'Keis Note'
+keywords: Keis Note
+author: Kee Lau
 language: en
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://www.iskei.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -93,9 +93,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo:
+      github: git@github.com:imcco/imcco.github.io.git
+  branch: master
