@@ -3,6 +3,8 @@ node_js: stable     #设置相应的版本
 cache:
     directories:
         - node_modules
+git:
+    submodules: false
 
 before_install:
   #- npm install -g hexo
