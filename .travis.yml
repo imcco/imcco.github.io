@@ -15,7 +15,7 @@ before_install:
   # Restore last modified time
   - "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
 
-  - git submodule add https://github.com/next-theme/hexo-theme-next themes/next
+  #- git submodule add https://github.com/next-theme/hexo-theme-next themes/next
   - git submodule update --recursive --remote --init
 
   # Deploy history
