@@ -1,0 +1,63 @@
+language: node_js
+node_js: stable     #设置相应的版本
+cache:
+    directories:
+        - node_modules
+
+before_install:
+  #- npm install -g hexo
+  #- npm install -g hexo-cli
+  # Git Config
+  - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
+  - git config --global user.name "imcco"
+  - git config --global user.email "ceek@vip.qq.com"
+
+  # Restore last modified time
+  - "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
+
+  # Submodules
+  - git submodule update --recursive --remote --init
+
+  # Deploy history
+  - git clone --branch=master --single-branch https://github.com/imcco/imcco.github.io.git .deploy_git
+
+# S: Build Lifecycle
+install:
+  - npm install
+
+before_script:
+   - export TZ='Asia/Shanghai'  
+ # - npm install -g gulp
+ # - git clone --branch master https://github.com/imcco/imcco.github.io.git public
+
+script:
+  #- hexo cl #清除
+  - hexo g   #生成
+
+after_script:
+  - cd ./public
+  - git init
+  - git config user.name "imcco"
+  - git config user.email "ceek@vip.qq.com"
+  - git add .
+  - git commit -m "Update By TravisCI , Deploy at $(date)."
+  # Github Pages
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master 
+  # Coding Pages
+  - git push --force --quiet "https://laukei:${CO_TOKEN}@${CO_REF}" master:master
+  - git tag v0.0.$TRAVIS_BUILD_NUMBER -a -m "Auto Taged By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+  # Github Pages
+  - git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:master --tags
+  # Coding Pages
+  - git push --quiet "https://laukei:${CO_TOKEN}@${CO_REF}" master:master --tags
+
+branches:
+  only:
+    - dev
+
+env:
+ global:
+   # Github Pages
+   - GH_REF: github.com/imcco/imcco.github.io.git
+   # Coding Pages
+   - CO_REF: git.coding.net/laukei/laukei.coding.me.git
