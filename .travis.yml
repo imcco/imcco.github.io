@@ -4,7 +4,13 @@ cache:
     directories:
         - node_modules
 git:
-    submodules: false
+  depth: false
+  submodules: false
+
+cache:
+  apt: true
+  directories:
+    - node_modules
 
 before_install:
   #- npm install -g hexo
@@ -17,9 +23,9 @@ before_install:
   # Restore last modified time
   - "git ls-files -z | while read -d '' path; do touch -d \"$(git log -1 --format=\"@%ct\" \"$path\")\" \"$path\"; done"
 
-  #- git submodule add https://github.com/next-theme/hexo-theme-next themes/next
+  # Submodules
   - git submodule update --recursive --remote --init
-
+  
   # Deploy history
   - git clone --branch=master --single-branch https://github.com/imcco/imcco.github.io.git .deploy_git
 
@@ -33,8 +39,8 @@ before_script:
  # - git clone --branch master https://github.com/imcco/imcco.github.io.git public
 
 script:
-  #- hexo cl #清除
-  - hexo g   #生成
+  - hexo clean
+  - hexo g -d
 
 after_script:
   - cd ./public
@@ -43,13 +49,17 @@ after_script:
   - git config user.email "ceek@vip.qq.com"
   - git add .
   - git commit -m "Update By TravisCI , Deploy at $(date)."
+  
   # Github Pages
-  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master 
+  - git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master
+  
   # Coding Pages
   - git push --force --quiet "https://laukei:${CO_TOKEN}@${CO_REF}" master:master
   - git tag v0.0.$TRAVIS_BUILD_NUMBER -a -m "Auto Taged By TravisCI With Build $TRAVIS_BUILD_NUMBER"
+  
   # Github Pages
   - git push --quiet "https://${GH_TOKEN}@${GH_REF}" master:master --tags
+  
   # Coding Pages
   - git push --quiet "https://laukei:${CO_TOKEN}@${CO_REF}" master:master --tags
 
