@@ -27,7 +27,7 @@ before_install:
   - git submodule update --recursive --remote --init
   
   # Deploy history
-  - git clone --branch=master --single-branch https://github.com/imcco/imcco.github.io.git .deploy_git
+  - git clone --branch=master --single-branch https://github.com/onocs/onocs.github.io.git .deploy_git
 
 # S: Build Lifecycle
 install:
@@ -45,7 +45,7 @@ script:
 after_script:
   - cd ./public
   - git init
-  - git config user.name "imcco"
+  - git config user.name "onocs"
   - git config user.email "ceek@vip.qq.com"
   - git add .
   - git commit -m "Update By TravisCI , Deploy at $(date)."
