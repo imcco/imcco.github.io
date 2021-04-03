@@ -101,5 +101,10 @@ theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
+
 deploy:
-  type: github: git@github.com:onocs/i.github.io.git,master
+    type: git
+    repo: https://github.com/onocs/onocs.github.io.git
+    branch: master
+    message: "Update By TravisCI , Deploy at $(date)."
+  
