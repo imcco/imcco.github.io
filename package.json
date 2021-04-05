@@ -44,7 +44,8 @@
     "hexo-tag-publications": "0.1.14",
     "hexo-theme-next": "8.3.0",
     "jsdelivr_url": "0.0.1",
-    "sticker-heo": "0.6.0"
+    "sticker-heo": "0.6.0",
+	"hexo-abbrlink": "^2.0.5"
   },
   "devDependencies": {
     "bundlesize": "0.18.1",
