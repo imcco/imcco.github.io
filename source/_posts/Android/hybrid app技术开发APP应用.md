@@ -6,7 +6,7 @@ date: 2018-01-30 15:44:36
 ---
 hybrid app技术开发APP应用。而现在主流的**Hybrid app**框架是**phonegap**。在使用phonegap做混合式开发之前需要下载很多软件及插件。如：**JavaJDK、node.js、cordova、ionic、Android studio、AndroidSDK**等软件及相应的插件。（请不要下载phonegap应用程序，不要混淆）
 下面就来简单介绍一下，如何安装cordova和ionic及常用的命令总结。
-<!--more-->
+#<!--more-->
 ## 第一部分  安装时总结
 
 #### win系统下nodejs安装及环境配置
