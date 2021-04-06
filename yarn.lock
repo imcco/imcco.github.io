@@ -888,22 +888,6 @@
     js-yaml "4.0.0"
     lodash "4.17.20"
 
-"@njzjz/hexo-sitemap@0.0.2":
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/@njzjz/hexo-sitemap/-/hexo-sitemap-0.0.2.tgz#6c4167630631d7c0dee90d2d71b3c60ada8b870c"
-  integrity sha512-w7Ak6zGxVcBfb0GjAM/AKlZhCnd6z70VZdgkyj+rmAW+UJMklgC8rz9XPO6mHHMaMsTSH8RwPLWgC/Ym9AfkEQ==
-  dependencies:
-    "@njzjz/sitemap" "^0.0.3"
-    hexo-util "^2.4.0"
-    jsdelivr_url "^0.0.1"
-
-"@njzjz/sitemap@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@njzjz/sitemap/-/sitemap-0.0.3.tgz#460abd89794c25801580dcc607392eb1c4069eca"
-  integrity sha512-8kXiIKexpAaE8THMi6221QNHQAWNByt+MuREp6y1EaadbIyK3GkKpFJU58r38gmNcsuzcm4M4rJb9uCyR4IKYw==
-  dependencies:
-    yaml "^1.10.0"
-
 "@rollup/plugin-babel@^5.2.0":
   version "5.3.0"
   resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.3.0.tgz#9cb1c5146ddd6a4968ad96f209c50c62f92f9879"
