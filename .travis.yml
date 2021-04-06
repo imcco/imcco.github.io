@@ -36,7 +36,7 @@ install:
 before_script:
    - export TZ='Asia/Shanghai'  
  # - npm install -g gulp
- # - git clone --branch master https://github.com/imcco/imcco.github.io.git public
+ # - git clone --branch master https://github.com/onocs/onocs.github.io.git public
 
 script:
   - hexo clean
