@@ -11,7 +11,7 @@
 
 # Allow to cache content generation.
 cache:
-  enable: true
+  enable: false
 
 # Remove unnecessary files after hexo generate.
 minify: true
@@ -28,7 +28,7 @@ custom_file_path:
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  style: source/_data/styles.styl
+  #style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -37,8 +37,8 @@ custom_file_path:
 
 # Schemes
 #scheme: Muse
-scheme: Mist
-#scheme: Pisces
+#scheme: Mist
+scheme: Pisces
 #scheme: Gemini
 
 # Dark Mode
@@ -68,7 +68,7 @@ creative_commons:
   license: by-nc-sa
   sidebar: true
   post: true
-  language:
+  language: zh-CN
 
 
 # ---------------------------------------------------------------
@@ -724,15 +724,6 @@ busuanzi_count:
 # See: https://theme-next.js.org/docs/third-party-services/search-services
 # ---------------------------------------------------------------
 
-# Algolia Search
-# For more information: https://www.algolia.com
-algolia_search:
-  enable: false
-  hits:
-    per_page: 10
-
-# Local Search
-# Dependencies: https://github.com/next-theme/hexo-generator-searchdb
 local_search:
   enable: true
   # If auto, trigger search by changing input.
