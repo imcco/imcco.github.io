@@ -4,7 +4,7 @@ tags: Think
 category: Think
 date: 2018-02-20 21:44:36
 ---
-![image](http://ovi3ob9p4.bkt.clouddn.com/TIETU/CT0122.jpg)
+![img](http://www.ruanyifeng.com/blogimg/asset/2017/bg2017042402.png)
 
 有人曾经问我：“成年后，有没有书籍改变过你的世界观？”
 
@@ -15,8 +15,6 @@ date: 2018-02-20 21:44:36
 作者：阮一峰
 
 1. “熵”这个概念非常简单，很容易理解，但又异常强大，可以解释很多事情。这篇文章，我就来谈谈，为什么你应该懂得熵是什么，它可能也会改变你的世界观。
-
-![img](http://www.ruanyifeng.com/blogimg/asset/2017/bg2017042402.png)
 
 2. 为了理解熵，必须讲一点物理学。
 

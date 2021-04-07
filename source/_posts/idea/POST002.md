@@ -4,8 +4,6 @@ tags: Think
 category: Think
 date: 2018-02-21 21:44:36
 ---
-![image](http://ovi3ob9p4.bkt.clouddn.com/TIETU/CT0123.jpg)
-
 东亚国家现代的普鲁士教育体制阻碍了学生进行更为深入的探究，对他们独立思考的能力有害无益。
 <!--more-->
 2014年度诺贝尔物理学奖得主中村修二。
