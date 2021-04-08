@@ -80,7 +80,8 @@ footer:
     name: fa fa-heart
     animated: true
     color: "#ff0000"
-  copyright:
+  copyright: Jimny
+  powered: false
   
 excerpt_description: true
 read_more_btn: true
