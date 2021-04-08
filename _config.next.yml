@@ -2,7 +2,7 @@
 cache:
   enable: false
 minify: true
-scheme: Muse
+scheme: Gemini
 darkmode: true
 
 favicon:
@@ -32,7 +32,7 @@ menu_settings:
 sidebar:
   position: left
   display: post
-  padding: 18
+  padding: 15
   offset: 12
   
 avatar:
@@ -196,7 +196,7 @@ github_banner:
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 
 font:
-  enable: false
+  enable: true
   host:
   global:
     external: true
