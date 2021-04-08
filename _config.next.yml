@@ -270,7 +270,7 @@ comments:
     #  order: -2
 
 disqus:
-  enable: false
+  enable: true
   shortname:
   count: true
   
@@ -281,7 +281,7 @@ disqusjs:
   shortname: # See: https://disqus.com/admin/settings/general/
 
 changyan:
-  enable: true
+  enable: false
   appid: cytbQfMsF
   appkey: e6252376611e512ef8df6f1ac6a2fe64
 
@@ -295,6 +295,7 @@ gitalk:
   distraction_free_mode: true # Facebook-like distraction free mode
   proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token # This is official proxy adress
   language: zh-CN
+
 
 # Utterances
 # For more information: https://utteranc.es
