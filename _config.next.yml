@@ -196,28 +196,26 @@ github_banner:
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 
 font:
-  enable: true
-  host: https://fonts.loli.net
+  enable: false
+  host: http://fonts.loli.net
   global:
     external: true
-    family: Helvetica
-    size: 13px
+    family: Lato
+    size: 
   title:
     external: true
-    family: Helvetica
-    size: 13px
+    family: 
+    size:
   headings:
     external: true
-    family: Helvetica
-    size: 13px
+    family:
+    size:
   posts:
     external: true
-    family: Helvetica
-    size: 12px
+    family:
   codes:
     external: true
     family: Courier New
-    size: 12px
 
 index_with_subtitle: false
 exturl: false
@@ -238,10 +236,10 @@ math:
     enable: false
     # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
     copy_tex: false    
-pjax: false
-fancybox: false
+pjax: true
+fancybox: true
 mediumzoom: true
-lazyload: false
+lazyload: true
 pangu: true
 quicklink:
   enable: false
