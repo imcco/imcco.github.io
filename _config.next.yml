@@ -73,6 +73,7 @@ chat:
   text: Chat # Button text, change it as you wish.
   
 language_switcher: true
+
 footer:
   since: 1998
   icon:
@@ -80,9 +81,10 @@ footer:
     animated: true
     color: "#ff0000"
   copyright:
-  powered: false
+  
 excerpt_description: true
 read_more_btn: true
+
 post_meta:
   item_text: true
   created_at: true
@@ -90,14 +92,17 @@ post_meta:
     enable: true
     another_day: true
   categories: true
+  
 symbols_count_time:
   separated_meta: true
   item_text_total: false
 tag_icon: true
+
 reward_settings:
-  enable: false
-  animation: false
-  #comment: Buy me a coffee
+  enable: true
+  animation: true
+  comment: Buy me a coffee
+  
 reward:
   #wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
