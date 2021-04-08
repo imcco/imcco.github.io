@@ -99,7 +99,7 @@ symbols_count_time:
 tag_icon: true
 
 reward_settings:
-  enable: true
+  enable: false
   animation: true
   comment: Buy me a coffee
   
@@ -108,11 +108,12 @@ reward:
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
+  
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  #RSS: /atom.xml || fa fa-rss
+  RSS: /atom.xml || fa fa-rss
 related_posts:
   enable: true
   title: # Custom header, leave empty to use the default one
