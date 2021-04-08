@@ -201,21 +201,22 @@ font:
   global:
     external: true
     family: Lato
-    size: 
+    size: 0.8
   title:
     external: true
     family: 
-    size:
+    size: 0.8
   headings:
     external: true
     family:
-    size:
+    size: 0.8
   posts:
     external: true
     family:
   codes:
     external: true
     family: Courier New
+    size: 0.5
 
 index_with_subtitle: false
 exturl: false
