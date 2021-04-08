@@ -2,7 +2,7 @@
 cache:
   enable: false
 minify: true
-scheme: Pisces
+scheme: Muse
 darkmode: true
 
 favicon:
@@ -114,6 +114,7 @@ follow_me:
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
   RSS: /atom.xml || fa fa-rss
+
 related_posts:
   enable: true
   title: # Custom header, leave empty to use the default one
@@ -122,13 +123,16 @@ related_posts:
     maxCount: 5
     #PPMixingRate: 0.0
     #isDate: false
-    isImage: true
+    #isImage: true
     #isExcerpt: false
+
 post_edit:
   enable: true
   url: https://github.com/onocs/onocs.github.io/tree/dev/source/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
+
 post_navigation: left
+
 tagcloud:
   min: 12 # Minimun font size in px
   max: 30 # Maxium font size in px
@@ -138,12 +142,16 @@ tagcloud:
 
 # Misc Theme Settings
 preconnect: true
+
 text_align:
   # Available values: start | end | left | right | center | justify | justify-all | match-parent
   desktop: justify
   mobile: justify
+  
 mobile_layout_economy: true
+
 android_chrome_color: "#222"
+
 codeblock:
   theme:
     light: tomorrow
@@ -156,12 +164,14 @@ codeblock:
     enable: true
     # Available values: default | flat | mac
     style: mac
+
 back2top:
   enable: true
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
   scrollpercent: false
+
 reading_progress:
   enable: false
   # Available values: left | right
@@ -171,12 +181,14 @@ reading_progress:
   reversed: false
   color: "#37c6c0"
   height: 3px
+
 bookmark:
   enable: true
   color: "#222"
   save: auto
+
 github_banner:
-  enable: false
+  enable: true
   permalink: https://github.com/onocs
 
 # Find fonts on Google Fonts (https://fonts.google.com)
