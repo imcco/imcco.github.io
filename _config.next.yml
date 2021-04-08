@@ -200,22 +200,24 @@ font:
   host:
   global:
     external: true
-    family: Lato
+    family: Helvetica
     size: 12
   title:
     external: true
-    family:
+    family: Helvetica
     size: 12
   headings:
     external: true
-    family:
+    family: Helvetica
     size: 12
   posts:
     external: true
-    family:
+    family: Helvetica
+    size: 12
   codes:
     external: true
-    family:
+    family: Courier New
+    size: 12
 
 index_with_subtitle: false
 exturl: false
