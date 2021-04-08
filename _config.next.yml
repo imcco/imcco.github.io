@@ -197,7 +197,7 @@ github_banner:
 
 font:
   enable: true
-  host:
+  host: https://fonts.loli.net
   global:
     external: true
     family: Helvetica
