@@ -1,23 +1,6 @@
-# ===============================================================
-# It's recommended to use Alternate Theme Config to configure NexT
-# Modifying this file may result in merge conflict
-# See: https://theme-next.js.org/docs/getting-started/configuration
-# ===============================================================
-
-# ---------------------------------------------------------------
-# Theme Core Configuration Settings
-# See: https://theme-next.js.org/docs/theme-settings/
-# ---------------------------------------------------------------
-
-# Allow to cache content generation.
 cache:
   enable: false
-
-# Remove unnecessary files after hexo generate.
 minify: true
-
-# Define custom file paths.
-# Create your custom files in site directory `source/_data` and uncomment needed files below.
 custom_file_path:
   #head: source/_data/head.njk
   #header: source/_data/header.njk
@@ -29,56 +12,22 @@ custom_file_path:
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
   #style: source/_data/styles.styl
-
-
-# ---------------------------------------------------------------
-# Scheme Settings
-# ---------------------------------------------------------------
-
-# Schemes
-#scheme: Muse
-#scheme: Mist
+#scheme: Muse Mist Gemini Pisces 
 scheme: Pisces
-#scheme: Gemini
-
-# Dark Mode
 darkmode: true
-
-
-# ---------------------------------------------------------------
-# Site Information Settings
-# ---------------------------------------------------------------
-
 favicon:
   small: /images/favicon-16x16-next.png
   medium: /images/favicon-32x32-next.png
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   android_manifest: /manifest.json
-
-# Custom Logo (Warning: Do not support scheme Mist)
 custom_logo: #/uploads/custom-logo.jpg
-
-# Creative Commons 4.0 International License.
-# See: https://creativecommons.org/about/cclicenses/
-# Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-# You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
-# CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
+# license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
 creative_commons:
   license: by-nc-sa
   sidebar: true
   post: true
   language: zh-CN
-
-
-# ---------------------------------------------------------------
-# Menu Settings
-# ---------------------------------------------------------------
-
-# Usage: `Key: /link/ || icon`
-# Key is the name of menu item. If the translation for this item is available, the translated text will be loaded, otherwise the Key name will be used. Key is case-senstive.
-# Value before `||` delimiter is the target link, value after `||` delimiter is the name of Font Awesome icon.
-# External url should start with http:// or https://
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
@@ -88,18 +37,9 @@ menu:
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
-
-# Enable / Disable menu icons / item badges.
 menu_settings:
   icons: true
   badges: true
-
-
-# ---------------------------------------------------------------
-# Sidebar Settings
-# See: https://theme-next.js.org/docs/theme-settings/sidebar
-# ---------------------------------------------------------------
-
 sidebar:
   # Sidebar Position.
   position: left
@@ -116,28 +56,15 @@ sidebar:
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  totally remove sidebar including sidebar toggle.
   display: post
-
-  # Sidebar padding in pixels.
   padding: 18
   # Sidebar offset from top menubar in pixels (only for Pisces | Gemini).
   offset: 12
-
-# Sidebar Avatar
 avatar:
-  # Replace the default image and set the url here.
   url: #/images/avatar.gif
-  # If true, the avatar will be dispalyed in circle.
   rounded: false
-  # If true, the avatar will be rotated with the cursor.
   rotated: false
-
 # Posts / Categories / Tags in sidebar.
 site_state: true
-
-# Social Links
-# Usage: `Key: permalink || icon`
-# Key is the link label showing to end users.
-# Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/ || fab fa-github
   E-Mail: mailto:ceek@vip.qq.com || fa fa-envelope
@@ -149,98 +76,52 @@ social:
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
-
 social_icons:
   enable: true
   icons_only: true
   transition: false
-
-# Blog rolls
 links_settings:
   icon: fa fa-globe
   title: Links
   # Available values: block | inline
   layout: block
-
 links:
   #Title: https://example.com
-
-# Table of Contents in the Sidebar
-# Front-matter variable (unsupport wrap expand_all).
 toc:
   enable: true
-  # Automatically add list number to toc.
   number: true
-  # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
-  # If true, all level of TOC in a post will be displayed, rather than the activated part of it.
   expand_all: false
-  # Maximum heading depth of generated toc.
   max_depth: 6
-
-# A button to open designated chat widget in sidebar.
-# Firstly, you need enable the chat service you want to activate its sidebar button.
 chat:
   enable: true
   #service: 
   #service: 
   icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
-
-
-
-# ---------------------------------------------------------------
-# Footer Settings
-# See: https://theme-next.js.org/docs/theme-settings/footer
-# ---------------------------------------------------------------
-
-# Show multilingual switcher in footer.
 language_switcher: false
-
 footer:
-  # Specify the year when the site was setup. If not defined, current year will be used.
   since: 1998
-
-  # Icon between year and copyright info.
   icon:
-    # Icon name in Font Awesome. See: https://fontawesome.com/icons
+    # See: https://fontawesome.com/icons
     name: fa fa-heart
-    # If you want to animate the icon, set it to true.
     animated: true
-    # Change the color of icon, using Hex Code.
     color: "#ff0000"
-
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
-
   # Powered by Hexo & NexT
   powered: false
-
   # Beian ICP and gongan information for Chinese users. See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
     enable: false
     icp:
-    # The digit in the num of gongan beian.
     gongan_id:
-    # The full num of gongan beian.
     gongan_num:
-    # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
+    # See: http://www.beian.gov.cn/portal/download
     gongan_icon_url:
-
-
-# ---------------------------------------------------------------
-# Post Settings
-# See: https://theme-next.js.org/docs/theme-settings/posts
-# ---------------------------------------------------------------
-
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
-
-# Read more button
-# If true, the read more button will be displayed in excerpt section.
 read_more_btn: true
-
-# Post meta display settings
 post_meta:
   item_text: true
   created_at: true
@@ -248,32 +129,19 @@ post_meta:
     enable: true
     another_day: true
   categories: true
-
-# Post wordcount display settings
-# Dependencies: https://github.com/next-theme/hexo-word-counter
 symbols_count_time:
   separated_meta: true
   item_text_total: false
-
-# Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: true
-
-# Donate (Sponsor) settings
-# Front-matter variable (unsupport animation).
 reward_settings:
-  # If true, a donate button will be displayed in every article by default.
   enable: false
   animation: false
   #comment: Buy me a coffee
-
 reward:
   #wechatpay: /images/wechatpay.png
   #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
-
-# Subscribe through Telegram Channel, Twitter, etc.
-# Usage: `Key: permalink || icon` (Font Awesome)
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
@@ -288,10 +156,10 @@ related_posts:
   display_in_home: false
   params:
     maxCount: 5
-    #PPMixingRate: 0.0
-    #isDate: false
-    #isImage: false
-    #isExcerpt: false
+    PPMixingRate: 0.0
+    isDate: true
+    isImage: true
+    isExcerpt: true
 
 # Post edit
 # Easily browse and edit blog source code online.
