@@ -4,62 +4,75 @@ cache:
 minify: true
 scheme: Pisces
 darkmode: true
+
 favicon:
   small: /images/favicon-16x16-next.png
   medium: /images/favicon-32x32-next.png
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
   android_manifest: /manifest.json
+  
 creative_commons:
   license: by-nc-sa
   sidebar: true
   post: true
   language: zh-CN
+  
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
+  
 menu_settings:
   icons: true
   badges: true
+  
 sidebar:
   position: left
   display: post
   padding: 18
   offset: 12
+  
 avatar:
   url: #/images/avatar.gif
   rounded: false
   rotated: false
 site_state: true
+
 social:
   GitHub: https://github.com/ || fab fa-github
   E-Mail: mailto:ceek@vip.qq.com || fa fa-envelope
+  
 social_icons:
   enable: true
   icons_only: true
   transition: false
+  
 links_settings:
   icon: fa fa-globe
   title: Links
   layout: block
+  
 links:
   #Title: https://example.com
+  
 toc:
   enable: true
   number: true
   wrap: false
   expand_all: false
   max_depth: 6
+  
 chat:
   enable: true
   #service: 
   #service: 
   icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
-language_switcher: false
+  
+language_switcher: true
 footer:
   since: 1998
   icon:
