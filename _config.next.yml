@@ -201,23 +201,23 @@ font:
   global:
     external: true
     family: Helvetica
-    size: 0.8
+    size: 13px
   title:
     external: true
     family: Helvetica
-    size: 0.9
+    size: 13px
   headings:
     external: true
     family: Helvetica
-    size: 0.9
+    size: 13px
   posts:
     external: true
     family: Helvetica
-    size: 0.8
+    size: 12px
   codes:
     external: true
     family: Courier New
-    size: 0.7
+    size: 12px
 
 index_with_subtitle: false
 exturl: false
