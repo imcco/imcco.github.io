@@ -160,12 +160,24 @@ related_posts:
     isDate: true
     isImage: true
     isExcerpt: true
+
+# Post edit
+# Easily browse and edit blog source code online.
 post_edit:
   enable: true
   url: https://github.com/onocs/onocs.github.io/tree/dev/source/ # Link for view source
   #url: https://github.com/user-name/repo-name/edit/branch-name/subdirectory-name/ # Link for fork & edit
+
+# Show previous post and next post in post footer if exists
 # Available values: left | right | false
 post_navigation: left
+
+
+# ---------------------------------------------------------------
+# Custom Page Settings
+# See: https://theme-next.js.org/docs/theme-settings/custom-pages
+# ---------------------------------------------------------------
+
 # TagCloud settings for tags page.
 tagcloud:
   min: 12 # Minimun font size in px
@@ -173,6 +185,21 @@ tagcloud:
   amount: 200 # Total amount of tags
   orderby: name # Order of tags
   order: 1 # Sort order
+
+# Google Calendar
+# Share your recent schedule to others via calendar page.
+calendar:
+  calendar_id: <required> # Your Google account E-Mail
+  api_key: <required>
+  orderBy: startTime
+  showLocation: false
+  offsetMax: 72 # Time Range
+  offsetMin: 4 # Time Range
+  showDeleted: false
+  singleEvents: true
+  maxResults: 250
+
+
 # ---------------------------------------------------------------
 # Misc Theme Settings
 # See: https://theme-next.js.org/docs/theme-settings/miscellaneous
@@ -198,7 +225,7 @@ codeblock:
   # Code Highlight theme
   # All available themes: https://theme-next.js.org/highlight/
   theme:
-    light: tomorrow
+    light: default
     dark: tomorrow-night
   prism:
     light: prism
@@ -207,13 +234,15 @@ codeblock:
   copy_button:
     enable: true
     # Available values: default | flat | mac
-    style: flat
+    style: mac
+
 back2top:
   enable: true
   # Back to top in sidebar.
   sidebar: false
   # Scroll percent label in b2t button.
   scrollpercent: false
+
 # Reading progress bar
 reading_progress:
   enable: false
@@ -224,10 +253,14 @@ reading_progress:
   reversed: false
   color: "#37c6c0"
   height: 3px
+
 # Bookmark Support
 bookmark:
   enable: true
+  # Customize the color of the bookmark.
   color: "#222"
+  # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
+  # If manual, only save it by clicking the bookmark-icon.
   save: auto
 
 # `Follow me on GitHub` banner in the top-right corner.
