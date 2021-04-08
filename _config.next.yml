@@ -260,7 +260,7 @@ comments:
   active:
   storage: true
   # Lazyload all comment systems.
-  lazyload: false
+  lazyload: true
   # Modify texts or order for any navs, here are some examples.
   nav:
     #disqus:
