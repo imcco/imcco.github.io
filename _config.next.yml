@@ -201,15 +201,15 @@ font:
   global:
     external: true
     family: Lato
-    size:
+    size: 12
   title:
     external: true
     family:
-    size:
+    size: 12
   headings:
     external: true
     family:
-    size:
+    size: 12
   posts:
     external: true
     family:
