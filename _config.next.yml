@@ -77,11 +77,11 @@ chat:
   text: Chat # Button text, change it as you wish.
   
 tidio:
-  enable: false
-  key: <script src="//code.tidio.co/tlpkc5qkmrjiyojja3h77o3jueyuveev.js" async></script> # Public Key, get it from dashboard. See: https://www.tidio.com/panel/settings/developer
+  enable: true
+  key: tlpkc5qkmrjiyojja3h77o3jueyuveev # Public Key, get it from dashboard. See: https://www.tidio.com/panel/settings/developer
 
 chatra:
-  enable: true
+  enable: false
   async: true
   id: S5duzqQd5ddyoxsGq
   
