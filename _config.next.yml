@@ -71,10 +71,15 @@ toc:
   
 chat:
   enable: true
-  service: S5duzqQd5ddyoxsGq
+  service: chatra
   #service: 
   icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
+
+chatra:
+  enable: true
+  async: true
+  id: S5duzqQd5ddyoxsGq
   
 language_switcher: true
 
