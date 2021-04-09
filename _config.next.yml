@@ -2,6 +2,10 @@
 cache:
   enable: false
 minify: true
+
+custom_file_path:
+  style: source/_data/styles.styl
+  
 scheme: Gemini
 darkmode: true
 
