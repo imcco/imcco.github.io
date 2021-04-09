@@ -332,12 +332,6 @@ local_search:
   unescape: true
   preload: true
 
-chatra:
-  enable: false
-  async: true
-  id: # Visit Dashboard to get your ChatraID
-  #embed: # Unfinished experimental feature for developers. See: https://chatra.com/help/api/#injectto
-
 tidio:
   enable: false
   key: # Public Key, get it from dashboard. See: https://www.tidio.com/panel/settings/developer
