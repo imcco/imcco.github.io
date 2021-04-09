@@ -292,15 +292,15 @@ changyan:
 
 gitalk:
   enable: true
-  github_id: https://github.com/onocs/onocs.github.io.git # GitHub repo owner
+  github_id: onocs.github.io # GitHub repo owner
   repo: onocs.github.io # Repository name to store issues
-  client_id: Iv1.bb6aa534543d7cd1 # GitHub Application Client ID
-  client_secret: bc4df94442e9fdff795c4e12558adda4c4e9ae59 # GitHub Application Client Secret
+  client_id: 236428ac7ea5e4d89f13 # GitHub Application Client ID
+  client_secret: c2e896728cc875ef54cf77f64b1f920fd6f778dc # GitHub Application Client Secret
   admin_user: onocs # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token # This is official proxy adress
   language: zh-CN
-
+  
 # Utterances
 # For more information: https://utteranc.es
 utterances:
