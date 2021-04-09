@@ -71,10 +71,14 @@ toc:
   
 chat:
   enable: true
-  service: chatra
+  service: tidio
   #service: 
   icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
   text: Chat # Button text, change it as you wish.
+  
+tidio:
+  enable: false
+  key: <script src="//code.tidio.co/tlpkc5qkmrjiyojja3h77o3jueyuveev.js" async></script> # Public Key, get it from dashboard. See: https://www.tidio.com/panel/settings/developer
 
 chatra:
   enable: true
@@ -331,10 +335,6 @@ local_search:
   top_n_per_article: 1
   unescape: true
   preload: true
-
-tidio:
-  enable: false
-  key: # Public Key, get it from dashboard. See: https://www.tidio.com/panel/settings/developer
 
 note:
   style: simple
