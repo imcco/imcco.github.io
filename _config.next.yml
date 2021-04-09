@@ -306,11 +306,12 @@ gitalk:
 # For more information: https://utteranc.es
 utterances:
   enable: true
-  repo: onocs/onocs.github.io # Github repository name
+  repo: onocs.github.io # Github repository name
   # Available values: pathname | url | title | og:title
   issue_term: pathname
   # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
   theme: github-light
+  script_url: https://utteranc.es/client.js
 rating:
   enable: false
   id:     # <app_id>
