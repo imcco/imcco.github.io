@@ -275,12 +275,12 @@ comments:
     #  order: -2
 
 disqus:
-  enable: true
+  enable: false
   shortname:
   count: true
   
 disqusjs:
-  enable: true
+  enable: false
   api: qCJnuoa2Di4NoBGHXRJJgudsImMcUTN2qCCoSGlaQUqOCa4iGzmAsdhzoahfylvv
   apikey: WRtwUuRcuFqkmhO9LoX7RYYBA546nJ0vOs5LiWSVhzKh5a2xOQy38tu20CJ1JulY # Register new application from https://disqus.com/api/applications/
   shortname: # See: https://disqus.com/admin/settings/general/
@@ -305,8 +305,8 @@ gitalk:
 # Utterances
 # For more information: https://utteranc.es
 utterances:
-  enable: false
-  repo: # Github repository name
+  enable: true
+  repo: onocs.github.io # Github repository name
   # Available values: pathname | url | title | og:title
   issue_term: pathname
   # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
