@@ -292,7 +292,7 @@ changyan:
 
 gitalk:
   enable: true
-  github_id: ceek@vip.qq.com # GitHub repo owner
+  github_id: onocs # GitHub repo owner
   repo: onocs.github.io # Repository name to store issues
   client_id: 236428ac7ea5e4d89f13 # GitHub Application Client ID
   client_secret: c2e896728cc875ef54cf77f64b1f920fd6f778dc # GitHub Application Client Secret
