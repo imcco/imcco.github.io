@@ -298,6 +298,7 @@ gitalk:
   client_secret: c2e896728cc875ef54cf77f64b1f920fd6f778dc # GitHub Application Client Secret
   admin_user: onocs # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
+  createIssueManually: true
   proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token # This is official proxy adress
   language: zh-CN
   
