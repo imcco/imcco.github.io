@@ -291,16 +291,29 @@ changyan:
   appkey: e6252376611e512ef8df6f1ac6a2fe64
 
 gitalk:
-  enable: false
-  github_id: # GitHub repo owner
-  repo: # Repository name to store issues
-  client_id: # GitHub Application Client ID
-  client_secret: # GitHub Application Client Secret
-  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  enable: true
+  github_id: https://github.com/onocs/onocs.github.io.git # GitHub repo owner
+  repo: onocs.github.io # Repository name to store issues
+  client_id: 236428ac7ea5e4d89f13 # GitHub Application Client ID
+  client_secret: c2e896728cc875ef54cf77f64b1f920fd6f778dc # GitHub Application Client Secret
+  admin_user: onocs # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   proxy: https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token # This is official proxy adress
   language: zh-CN
 
+gitment:
+  enable: false
+  mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  count: true # Show comments count in post meta area
+  lazy: false # Comments lazy loading with a button
+  cleanly: true # Hide 'Powered by ...' on footer, and more
+  language: auto # Force language, or auto switch by theme
+  github_user: iiskei # MUST HAVE, Your Github Username
+  github_repo: i.github.io # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: 236428ac7ea5e4d89f13 # MUST HAVE, Github client id for the Gitment
+  client_secret: c2e896728cc875ef54cf77f64b1f920fd6f778dc # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
+  redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
 # Utterances
 # For more information: https://utteranc.es
