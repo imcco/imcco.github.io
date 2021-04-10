@@ -124,9 +124,9 @@ reward:
   #bitcoin: /images/bitcoin.png
   
 follow_me:
-  #Twitter: https://twitter.com/username || fab fa-twitter
-  #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  Twitter: https://twitter.com/username || fab fa-twitter
+  Telegram: https://t.me/channel_name || fab fa-telegram
+  WeChat: /images/wechat_channel.jpg || fab fa-weixin
   RSS: /atom.xml || fa fa-rss
 
 related_posts:
@@ -187,7 +187,7 @@ back2top:
   scrollpercent: false
 
 reading_progress:
-  enable: false
+  enable: true
   # Available values: left | right
   startAt: left
   # Available values: top | bottom
@@ -202,7 +202,7 @@ bookmark:
   save: auto
 
 github_banner:
-  enable: true
+  enable: false
   permalink: https://github.com/onocs
 
 # Find fonts on Google Fonts (https://fonts.google.com)
@@ -210,7 +210,7 @@ github_banner:
 # Arial | Tahoma | Helvetica | Times New Roman | Courier New | Verdana | Georgia | Palatino | Garamond | Comic Sans MS | Trebuchet MS
 
 font:
-  enable: false
+  enable: true
   host: http://fonts.loli.net
   global:
     external: true
