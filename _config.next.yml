@@ -217,22 +217,23 @@ font:
   global:
     external: true
     family: Lato
-    size: 0.8
+    size: 1
   title:
     external: true
     family: 
-    size: 0.8
+    size: 1
   headings:
     external: true
     family:
-    size: 0.8
+    size: 1
   posts:
     external: true
     family:
+    size: 0.8
   codes:
     external: true
     family: Courier New
-    size: 0.5
+    size: 0.8
 
 index_with_subtitle: false
 exturl: false
