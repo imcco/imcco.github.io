@@ -235,7 +235,7 @@ font:
     family: Courier New
     size: 0.8
 
-index_with_subtitle: false
+index_with_subtitle: true
 exturl: false
 exturl_icon: true
 
@@ -245,24 +245,24 @@ yandex_site_verification:
 baidu_site_verification:
 
 math:
-  every_page: false
+  every_page: true
   mathjax:
-    enable: false
+    enable: true
     tags: none
 
   katex:
-    enable: false
+    enable: true
     # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
-    copy_tex: false    
+    copy_tex: true    
 pjax: true
 fancybox: true
 mediumzoom: true
 lazyload: true
 pangu: true
 quicklink:
-  enable: false
-  home: false
-  archive: false
+  enable: true
+  home: true
+  archive: true
   delay: true
   timeout: 3000
   priority: true
@@ -324,7 +324,7 @@ firestore:
   projectId: # Required
 
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
@@ -341,13 +341,13 @@ local_search:
 
 note:
   style: simple
-  icons: false
+  icons: true
   light_bg_offset: 0
 
 # Tabs tag
 tabs:
   transition:
-    tabs: false
+    tabs: true
     labels: true
 
 pdf:
@@ -357,7 +357,7 @@ pdf:
 
 # Mermaid tag
 mermaid:
-  enable: false
+  enable: true
   # Available themes: default | dark | forest | neutral
   theme: forest
 
@@ -374,11 +374,11 @@ motion:
     sidebar: fadeInUp
 
 nprogress:
-  enable: false
+  enable: true
   spinner: true
 
 canvas_ribbon:
-  enable: false
+  enable: true
   size: 300 # The width of the ribbon
   alpha: 0.6 # The transparency of the ribbon
   zIndex: -1 # The display level of the ribbon
