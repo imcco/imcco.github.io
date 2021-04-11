@@ -40,16 +40,16 @@ sidebar:
   offset: 12
   
 avatar:
-  url: #/images/avatar.gif
-  rounded: false
-  rotated: false
+  url: https://cdn.jsdelivr.net/gh/onocs/onocs.github.io@img/avatar.jpg
+  rounded: true
+  rotated: true
 site_state: true
 
 social:
-  GitHub: https://github.com/ || fab fa-github
+  GitHub: https://github.com/onocs || fab fa-github
   Twitter: https://twitter.com/otcsss || fab fa-twitter
   E-Mail: mailto:ceek@vip.qq.com || fa fa-envelope
-  Facebook: https://www.facebook.com/yourname || fab fa-facebook
+  Facebook: https://www.facebook.com/imoocc || fab fa-facebook
   
 social_icons:
   enable: true
@@ -126,8 +126,8 @@ reward:
   #bitcoin: /images/bitcoin.png
   
 follow_me:
-  Twitter: https://twitter.com/username || fab fa-twitter
-  Telegram: https://t.me/channel_name || fab fa-telegram
+  Twitter: https://twitter.com/otcsss || fab fa-twitter
+  Telegram: https://t.me/onocs || fab fa-telegram
   WeChat: /images/wechat_channel.jpg || fab fa-weixin
   RSS: /atom.xml || fa fa-rss
 
