@@ -47,7 +47,9 @@ site_state: true
 
 social:
   GitHub: https://github.com/ || fab fa-github
+  Twitter: https://twitter.com/otcsss || fab fa-twitter
   E-Mail: mailto:ceek@vip.qq.com || fa fa-envelope
+  Facebook: https://www.facebook.com/yourname || fab fa-facebook
   
 social_icons:
   enable: true
