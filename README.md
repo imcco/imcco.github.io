@@ -1,1 +1,1 @@
-#### onocs.github.io src files
+[![Build Status](https://travis-ci.org/onocs/onocs.github.io.svg?branch=master)](https://travis-ci.org/onocs/onocs.github.io)
