@@ -26,29 +26,16 @@ menu:
   home: / || fa fa-home
   tags: /tags/ || fa fa-tags
   categories: /categories/ || fa fa-th
-  Books: /books/ || book  #This is your books page
-  Movies: /movies/ || video-camera
+  #Books: /books/ || book  #This is your books page
+  #Movies: /movies/ || video-camera
   archives: /archives/ || fa fa-archive
+  photo: /photo/ || photo
   about: /about/ || fa fa-user
-  #photo: /photo/ || photo
   
 menu_settings:
   icons: true
   badges: true
-  
-douban:
-  user: sirkei
-  builtin: true
-  book:
-    title: 'books'
-    quote: 'Books are the Windows of the human soul.'
-  movie:
-    title: 'movie'
-    quote: 'The dream begins with the play.'
-  #game:
-    #title: 'This is my game title'
-    #quote: 'This is my game quote'
-  timeout: 10000    
+
 sidebar:
   position: left
   display: post
