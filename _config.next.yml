@@ -294,21 +294,10 @@ changyan:
   appid: cytbQfMsF
   appkey: e6252376611e512ef8df6f1ac6a2fe64
 
-valine:
-  enable: true
-  appid: 3nyXCqUCR7h9bS03SgVrVcTo-gzGzoHsz # your leancloud application appid
-  appkey: ATSiF5Wtn160uu6HIYFiRpWs # your leancloud application appkey
-  notify: true # mail notifier , https://github.com/xCss/Valine/wiki
-  verify: true # Verification code
-  placeholder: Just go go # comment box placeholder
-  avatar: retro # gravatar style
-  guest_info: nick,mail,link # custom comment header
-  pageSize: 10 # pagination size
-  
 # Utterances
 # For more information: https://utteranc.es
 utterances:
-  enable: false
+  enable: true
   repo: onocs/onocs.github.io # Github repository name
   # Available values: pathname | url | title | og:title
   issue_term: pathname
