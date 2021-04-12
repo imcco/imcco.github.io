@@ -187,9 +187,9 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: false
+  sidebar: true
   # Scroll percent label in b2t button.
-  scrollpercent: false
+  scrollpercent: true
 
 reading_progress:
   enable: true
@@ -197,7 +197,7 @@ reading_progress:
   startAt: left
   # Available values: top | bottom
   position: top
-  reversed: false
+  reversed: true
   color: "#37c6c0"
   height: 3px
 
@@ -239,7 +239,7 @@ font:
     size: 0.8
 
 index_with_subtitle: true
-exturl: false
+exturl: true
 exturl_icon: true
 
 google_site_verification:
@@ -366,7 +366,7 @@ mermaid:
 
 motion:
   enable: true
-  async: false
+  async: true
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
     post_block: fadeIn
