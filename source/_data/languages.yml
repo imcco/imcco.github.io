@@ -1,0 +1,8 @@
+en:
+  name: English
+  menu:
+    photo: Gallery
+zh-CN:
+  name: 简体中文
+  menu:
+    photo: 图库
