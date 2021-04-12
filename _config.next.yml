@@ -29,7 +29,7 @@ menu:
   #Books: /books/ || book  #This is your books page
   #Movies: /movies/ || video-camera
   archives: /archives/ || fa fa-archive
-  photo: /photo/ || fa photo
+  photo: /photo/ || fa fa-picture-o
   about: /about/ || fa fa-user
   
 menu_settings:
