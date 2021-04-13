@@ -297,13 +297,26 @@ changyan:
 # Utterances
 # For more information: https://utteranc.es
 utterances:
-  enable: true
+  enable: false
   repo: onocs/onocs.github.io # Github repository name
   # Available values: pathname | url | title | og:title
   issue_term: pathname
   # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
   theme: github-light
   script_url: https://utteranc.es/client.js
+  
+valine:
+  enable: true
+  appid:  3nyXCqUCR7h9bS03SgVrVcTo-gzGzoHsz
+  appkey: ATSiF5Wtn160uu6HIYFiRpWs
+  notify: true  # 收到新评论是否邮件通知
+  verify: true  # 是否开启验证码
+  placeholder:  # 默认填充文字
+  avatar: Jimny  # 设置默认评论列表
+  guest_info: nick,mail  # 评论区头部表单
+  pageSize: 10  # 每页评论数
+  visitor: true  # 同时开启文章阅读次数统计
+ 
 rating:
   enable: false
   id:     # <app_id>
