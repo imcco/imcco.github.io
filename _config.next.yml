@@ -187,7 +187,7 @@ codeblock:
 back2top:
   enable: true
   # Back to top in sidebar.
-  sidebar: true
+  sidebar: false
   # Scroll percent label in b2t button.
   scrollpercent: true
 
@@ -297,7 +297,7 @@ changyan:
 # Utterances
 # For more information: https://utteranc.es
 utterances:
-  enable: false
+  enable: true
   repo: onocs/onocs.github.io # Github repository name
   # Available values: pathname | url | title | og:title
   issue_term: pathname
@@ -306,7 +306,7 @@ utterances:
   script_url: https://utteranc.es/client.js
   
 valine:
-  enable: true
+  enable: false
   appid:  3nyXCqUCR7h9bS03SgVrVcTo-gzGzoHsz
   appkey: ATSiF5Wtn160uu6HIYFiRpWs
   notify: true  # 收到新评论是否邮件通知
