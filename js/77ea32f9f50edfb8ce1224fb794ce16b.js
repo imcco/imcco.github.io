@@ -1,0 +1,1 @@
+bumpCode("404","OH!","Sorry! Page not found","Return to Jimny's Zone")

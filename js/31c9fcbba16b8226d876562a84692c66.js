@@ -1,0 +1,1 @@
+NexT.utils.loadComments(".utterances-container",()=>{const t=document.createElement("script");t.src="https://utteranc.es/client.js",t.setAttribute("repo","onocs/onocs.github.io"),t.setAttribute("issue-term","pathname"),t.setAttribute("theme","github-light"),t.crossOrigin="anonymous",t.async=!0,document.querySelector(".utterances-container").appendChild(t)})
